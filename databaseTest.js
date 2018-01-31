@@ -19,7 +19,7 @@ userSchema.methods.test = function() {
         ? "User name is " + this.name
         : "I don't have a name";
     console.log(test);
-}
+};
 
 // model tests
 var User = mongoose.model('User', userSchema);

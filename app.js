@@ -24,12 +24,12 @@ app.use(bodyParser.urlencoded({extended: false}));
 
 
 //set static path
-app.use(express.static(path.join(__dirname, 'public')))
+app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(req,res){
     res.render('index');
-})
+});
 
 app.listen(3000, function(){
     console.log('server started on port 3000....');
-})
+});
