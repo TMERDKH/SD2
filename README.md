@@ -18,3 +18,4 @@ Provide a platform through which a user can ask questions to a community of like
   * Node.js v8.9.4LTS
   * Express v4.16.0
   * MongoDB v3.6
+  * Mongoose 3.0.2
